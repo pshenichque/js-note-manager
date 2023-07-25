@@ -33,7 +33,7 @@ h1 {
 .input {
     height: 40px;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 16px;
     border-radius: 8px;
     border: transparent;
 }
@@ -48,4 +48,38 @@ h1 {
 
 .button:hover {
     background: lightskyblue;
+}
+
+.list {
+    text-decoration: none;
+    padding: 0;
+    margin: 18px 0 0 0;
+}
+
+.list-item {
+    list-style-type: none;
+    width: 100%;
+    height: 60px;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 30px 0 14px;
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+}
+
+.button-ok {
+    height: 30px;
+    background: green;
+    color: white;
+    border: transparent;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+
+.red {
+    background: red;
 }
