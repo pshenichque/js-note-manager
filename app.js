@@ -19,7 +19,7 @@ const getNoteTemplate = (title) => {
 const render = () => {
     for (let i = 0; i < notes.length; i++) {
         listElement.insertAdjacentHTML('afterbegin', getNoteTemplate(notes[i]));
-    };
+    }
 };
 
 render();
@@ -35,4 +35,13 @@ createButton.onclick = () => {
     inputElement.value = '';
 };
 
+
+const person = {
+    firstName: 'olezha',
+    lastName: 'kuznetsov',
+    year: 2002,
+    hasGirlfriend: false,
+    languages: ['ru', 'eng'],
+    getFullName: () => console.log(person.firstName + ' ' + person.lastName)
+};
 
