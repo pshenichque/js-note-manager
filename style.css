@@ -20,7 +20,7 @@ h1 {
     position: absolute;
     top: 25%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
     width: 800px;
 }
 
@@ -54,6 +54,9 @@ h1 {
     text-decoration: none;
     padding: 0;
     margin: 18px 0 0 0;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .list-item {
@@ -69,6 +72,7 @@ h1 {
     padding: 0 30px 0 14px;
     font-family: "Inter", sans-serif;
     font-size: 20px;
+    border-radius: 10px;
 }
 
 .button-ok {
