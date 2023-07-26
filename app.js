@@ -17,8 +17,9 @@ const getNoteTemplate = (title) => {
 };
 
 const render = () => {
-    listElement.insertAdjacentHTML('afterbegin', getNoteTemplate(notes[1]));
-    listElement.insertAdjacentHTML('afterbegin', getNoteTemplate(notes[0]));
+    for (let i = 0; i < notes.length; i++) {
+        listElement.insertAdjacentHTML('afterbegin', getNoteTemplate(notes[i]));
+    };
 };
 
 render();
