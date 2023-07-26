@@ -83,7 +83,19 @@ h1 {
     border-radius: 5px;
     padding: 0 10px;
 }
+.button-ok:hover {
+    background: darkcyan;
+}
 
 .red {
     background: red;
 }
+
+.red:hover {
+    background: orange;
+}
+
+.strikethrough {
+    text-decoration: line-through;
+}
+
